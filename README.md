@@ -1,59 +1,70 @@
-# CTZ Hands-on Experiments
+# Deep Skilling Solutions Repository
 
-**Sri Harish B** | **212223220110**
+**Name:** Sri Harish B
+**Reg No:** 212223220110
 
-Hands-on work covering backend web frameworks and database systems --
-building a Course Management System from a single Django app up through
-REST APIs and framework comparisons, alongside a parallel track of
-relational database exercises.
+Welcome to the **Deep Skilling Solutions** repository. This contains my solutions for the Deep Skilling track of the Cognizant Digital Nurture 5.0 Program for the Python Full Stack Engineer role. It organizes various hands-on projects and exercises covering Frontend Development, Database Integration, and Python Backend Frameworks.
 
-## Repository Layout
+---
 
-```
-CTZ_Hands-on-Experiments/
-├── Backend/
-│   ├── Handson_01_Django_Project_Setup/
-│   ├── Handson_02_Django_Models_ORM_Admin/
-│   ├── Handson_03_Django_REST_Framework/
-│   ├── Handson_04_Flask_Basics/
-│   └── Handson_05_Flask_SQLAlchemy/
-└── Database/
-    ├── Hand_on-1/   Database design & normalisation
-    ├── Hand_on-2/   DML, filtering, joins & aggregation
-    ├── Hand_on-3/   Subqueries, views, stored procedures & transactions
-    └── Hand_on-4/   Query performance & indexing
-```
+## 📂 Repository Structure
 
-## Backend
+The codebase is organized into three primary segments:
+1. **Frontend Development (`Module2_FrontendDev`)**: Focused on user interface design, styling, and client-side scripting.
+2. **Database Integration (`Module3_DatabaseIntegration`)**: Focused on database schema design, normalization, referential integrity, and SQL DDL operations.
+3. **Python Backend Frameworks (`PythonBackFrameworks`)**: Focused on server-side applications, database ORMs, REST APIs, and microservices.
 
-The same Course Management domain (Departments, Courses, Students,
-Enrollments) is rebuilt across frameworks, with each hands-on extending
-the previous one:
+---
 
-| # | Topic | Stack |
-|---|-------|-------|
-| 1 | Web framework foundations & Django project setup | Django |
-| 2 | Django models, ORM & admin interface | Django, SQLite |
-| 3 | Django REST views, serializers & viewsets | Django REST Framework |
-| 4 | Flask app structure, routing & blueprints | Flask |
-| 5 | Flask with SQLAlchemy ORM | Flask, SQLAlchemy |
+## 🎨 Module 1: Frontend Development
 
-Each folder has its own README with setup steps, endpoints and learning
-outcomes for that hands-on.
+Access the main frontend directory: **[Frontend Workspace](./Module2_FrontendDev/Sri_Harish_B/)**
 
-## Database
+| <span style="white-space: nowrap">Hands-on Module</span> | Description | Quick Link |
+| :--- | :--- | :--- |
+| <span style="white-space: nowrap">🔹 **Hands-on 01**</span> | HTML & CSS layout structure, grid/flexbox, typography, and styling foundation. | **[Open Folder 📂](./Module2_FrontendDev/Sri_Harish_B/handson_01/)** |
+| <span style="white-space: nowrap">🔹 **Hands-on 02**</span> | JavaScript dynamic DOM manipulation, event handling, AJAX/fetch integration. | **[Open Folder 📂](./Module2_FrontendDev/Sri_Harish_B/handson_02/)** |
+| <span style="white-space: nowrap">🔹 **Hands-on 03**</span> | JavaScript array methods, filtering, sorting, and dynamic data rendering. | **[Open Folder 📂](./Module2_FrontendDev/Sri_Harish_B/handson_03/)** |
+| <span style="white-space: nowrap">🔹 **Hands-on 04**</span> | Fetch API, Promises, async/await, and Axios API integration. | **[Open Folder 📂](./Module2_FrontendDev/Sri_Harish_B/handson_04/)** |
+| <span style="white-space: nowrap">🔹 **Hands-on 05**</span> | Vite build tool setup, module bundler configuration, and structure. | **[Open Folder 📂](./Module2_FrontendDev/Sri_Harish_B/handson_05/)** |
+| <span style="white-space: nowrap">🔹 **Hands-on 07**</span> | Angular application framework basics and component structure. | **[Open Folder 📂](./Module2_FrontendDev/Sri_Harish_B/handson_07/)** |
+| <span style="white-space: nowrap">🔹 **Hands-on 08**</span> | Vue.js framework basics, reactive properties, and components. | **[Open Folder 📂](./Module2_FrontendDev/Sri_Harish_B/handson_08/)** |
+| <span style="white-space: nowrap">🔹 **Hands-on 09**</span> | Web performance optimization and auditing with Google Lighthouse. | **[Open Folder 📂](./Module2_FrontendDev/Sri_Harish_B/handson_09/)** |
 
-| # | Topic | Stack |
-|---|-------|-------|
-| 1 | Database design & normalisation (1NF/2NF/3NF) | PostgreSQL / MySQL |
-| 2 | DML, filtering, joins & aggregation | PostgreSQL / MySQL |
-| 3 | Subqueries, views, stored procedures & transactions | PostgreSQL / MySQL |
-| 4 | Query performance & indexing, N+1 problem | PostgreSQL, psycopg2 |
+---
 
-## Notes
+## ⚙️ Module 2: Python Backend Frameworks
 
-Every folder is self-contained with its own `requirements.txt` (where
-applicable) and `.gitignore`. Virtual environments and database files are
-not tracked -- each hands-on's README covers the setup and run commands
-needed to bring it up locally.
+Access the main backend directory: **[Backend Workspace](./PythonBackFrameworks/Sri_Harish_B/)**
 
+| <span style="white-space: nowrap">Hands-on Module</span> | <span style="white-space: nowrap">Framework</span> | Description | Quick Link |
+| :--- | :--- | :--- | :--- |
+| <span style="white-space: nowrap">🔸 **Hands-on 01**</span> | <span style="white-space: nowrap">**Django**</span> | Request-response lifecycle, basic routing, and views. | **[Open Folder 📂](./PythonBackFrameworks/Sri_Harish_B/handson_01/)** |
+| <span style="white-space: nowrap">🔸 **Hands-on 02**</span> | <span style="white-space: nowrap">**Django**</span> | Database migrations, ORM models, and relationship queries. | **[Open Folder 📂](./PythonBackFrameworks/Sri_Harish_B/handson_02/)** |
+| <span style="white-space: nowrap">🔸 **Hands-on 03**</span> | <span style="white-space: nowrap">**Django REST**</span> | Model serializers, API views, and RESTful CRUD endpoints. | **[Open Folder 📂](./PythonBackFrameworks/Sri_Harish_B/handson_03/)** |
+| <span style="white-space: nowrap">🔸 **Hands-on 04**</span> | <span style="white-space: nowrap">**Flask**</span> | Server setup, blueprints, routes, custom error handlers. | **[Open Folder 📂](./PythonBackFrameworks/Sri_Harish_B/handson_04/)** |
+| <span style="white-space: nowrap">🔸 **Hands-on 05**</span> | <span style="white-space: nowrap">**Flask**</span> | SQLAlchemy database integration, migrations, and CRUD operations. | **[Open Folder 📂](./PythonBackFrameworks/Sri_Harish_B/handson_05/)** |
+| <span style="white-space: nowrap">🔸 **Hands-on 06**</span> | <span style="white-space: nowrap">**FastAPI**</span> | Lifespan events, Pydantic validations, aiosqlite integration. | **[Open Folder 📂](./PythonBackFrameworks/Sri_Harish_B/handson_06/)** |
+| <span style="white-space: nowrap">🔸 **Hands-on 07**</span> | <span style="white-space: nowrap">**FastAPI**</span> | Asynchronous repository pattern, dependency injection, SQLite operations. | **[Open Folder 📂](./PythonBackFrameworks/Sri_Harish_B/handson_07/)** |
+| <span style="white-space: nowrap">🔸 **Hands-on 08**</span> | <span style="white-space: nowrap">**FastAPI**</span> | RESTful API design best practices: versioning, pagination, filtering, PUT/PATCH, location headers, and standardized errors. | **[Open Folder 📂](./PythonBackFrameworks/Sri_Harish_B/handson_08/)** |
+| <span style="white-space: nowrap">🔸 **Hands-on 09**</span> | <span style="white-space: nowrap">**FastAPI**</span> | User authentication (OAuth2 & JWT), password hashing, and async SQLAlchemy/SQLite database integration. | **[Open Folder 📂](./PythonBackFrameworks/Sri_Harish_B/handson_09/)** |
+| <span style="white-space: nowrap">🔸 **Hands-on 10**</span> | <span style="white-space: nowrap">**Flask**</span> | Microservices architecture (Course Service, Student Service, Gateway proxy) with HTTP/REST inter-service communication. | **[Open Folder 📂](./PythonBackFrameworks/Sri_Harish_B/handson_10/)** |
+
+---
+
+## 🗄️ Module 3: Database Integration
+
+Access the main database integration directory: **[Database Integration Workspace](./Module3_DatabaseIntegration/Sri_Harish_B/)**
+
+| <span style="white-space: nowrap">Hands-on Module</span> | Description | Quick Link |
+| :--- | :--- | :--- |
+| <span style="white-space: nowrap">🔹 **Hands-on 01**</span> | Database schema design, SQL DDL (CREATE/ALTER/DROP), constraints, normalisation, and referential integrity. | **[Open Folder 📂](./Module3_DatabaseIntegration/Sri_Harish_B/handson_01/)** |
+| <span style="white-space: nowrap">🔹 **Hands-on 02**</span> | SQL DML operations (INSERT, UPDATE, DELETE), SQL Queries (filtering, sorting, formatting), JOINs, and GROUP BY aggregations. | **[Open Folder 📂](./Module3_DatabaseIntegration/Sri_Harish_B/handson_02/)** |
+| <span style="white-space: nowrap">🔹 **Hands-on 03**</span> | Advanced SQL: Subqueries, views, stored procedures, and transaction management (COMMIT, ROLLBACK, SAVEPOINT). | **[Open Folder 📂](./Module3_DatabaseIntegration/Sri_Harish_B/handson_03/)** |
+| <span style="white-space: nowrap">🔹 **Hands-on 04**</span> | Query performance optimization: EXPLAIN analysis, indexing, and resolving N+1 query problems. | **[Open Folder 📂](./Module3_DatabaseIntegration/Sri_Harish_B/handson_04/)** |
+| <span style="white-space: nowrap">🔹 **Hands-on 05**</span> | MongoDB document CRUD operations, aggregate pipelines ($unwind, $group, $sort), indexing, and performance analysis. | **[Open Folder 📂](./Module3_DatabaseIntegration/Sri_Harish_B/handson_05/)** |
+| <span style="white-space: nowrap">🔹 **Hands-on 06**</span> | SQLAlchemy ORM models, bidirectional relationships, CRUD operations, and solving the N+1 problem with joinedload. | **[Open Folder 📂](./Module3_DatabaseIntegration/Sri_Harish_B/handson_06/)** |
+| <span style="white-space: nowrap">🔹 **Hands-on 07**</span> | Database migrations with Alembic: initial schema creation, schema updates, auto-generation, and revision rollbacks. | **[Open Folder 📂](./Module3_DatabaseIntegration/Sri_Harish_B/handson_07/)** |
+
+
+---
